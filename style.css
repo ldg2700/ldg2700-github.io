@@ -178,7 +178,7 @@ section .image::before{
 section .image img{
     max-width: 600px;
     margin: auto;
-    
+}
 .features .card{
     background-color: #27272a;
     padding: 1rem;
