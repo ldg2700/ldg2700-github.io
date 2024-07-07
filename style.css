@@ -157,6 +157,28 @@ section .header{
     gap: 2rem;
 }
 
+section .image{
+    position: relative;
+}
+
+section .image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 38rem;
+    font-weight: 400;
+    line-height: 20rem;
+    color: #1d4ed8;
+    opacity: 0.2;
+    z-index: -100;
+}
+
+section .image img{
+    max-width: 600px;
+    margin: auto;
+    
 .features .card{
     background-color: #27272a;
     padding: 1rem;
